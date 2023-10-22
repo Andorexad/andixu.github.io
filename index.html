@@ -1,71 +1,227 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<title>Andi Xu</title>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Andi Xu</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
 <body>
-    <div>
-        Andi Xu
+
+  <nav class="navbar navbar-light custom-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand"><b>ANDI XU&nbsp;&nbsp;徐安頔</b></a>
+      <div >
+        <div id="nav">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#pro">Project</a>
+          <a href="assets/CV.pdf">CV</a>
+      </div>
     </div>
-    <div>
-        andixu@umich.edu
     </div>
-    <div>
-        734-604-0542
-    </div>
-    <div>
-        Major: CS & Math
-    </div>
-    <div><input type="text" id="fname" name="fname"></div>
-    <div>
-        Project 1: [VR] CSE simulator
-    </div>
-    <div class="embed-container">
-        <iframe width="640" height="390" 
-        src="https://www.youtube.com/embed/d8qZe83WhE0" 
+  </nav>
+  
+    
+  <section class="section">
+    <div class="container">
+      
+        <div class="row mb-5 align-items-center" id="about">
+          <div class="col-md-12 col-lg-3 selfie-container">
+            <img id="photo" src="assets/img/selfie2.jpg" alt="Image" class="img-fluid rounded">
+          </div>
+          <div class="col-md-12 col-lg-9 mb-4 mb-lg-0 about-text">
+            <p class="mb-0" >
+              I am an undergraduate student at <a href="https://cse.engin.umich.edu/">University of Michigan</a>, with a major in Computer Science and minors in Mathematics and Japanese. <br><br>
+              I’m interested in using AI to augment human capabilities and am motivated by the question, “How can we build systems that support humans while still ensuring their agency in this new AI era?”<br> 
+              <br>In the past, I worked on HCI, accessibility and Human-AI interaction, fortunate to work under the supervision of <a href="https://guoanhong.com/">Prof. Anhong Guo at Human-AI Lab</a>. I also have had rewarding experiences working with AI and XR. 
+            </p>
+          </div>
+        </div>
+
+        <div class="'work">
+
         
-        frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div>
-        Project 2: [AR] A2G (part 1)
-    </div>
-    <div class="embed-container">
-        <iframe width="640" height="390" 
-        src="https://www.youtube.com/embed/Lr2u4cpgoRk" 
+
+        <div class="d-flex justify-content-center align-items-center section-title subtitle" id="research">
+          <div>
+              <b>Research</b>
+          </div>
+        </div>
+
+        <div class="row paper-row">
+          <div class="col-md-3 col-xs-4">
+            <img class="paperimage img img-responsive" src="assets/img/vizlens.jpg" alt="Many flat interfaces are inaccessible to blind and visually-impaired people. This photo shows a person using the microwave panel with the help of our Vizlens app.">
+            
+          </div>
+          <div class="col-md-9 col-xs-8">
+            <div>
+              Deploying VizLens: Characterizing User Needs, Preferences, and Challenges of Physical Interfaces Usage in the Wild
+            </div>
+            <div><b>Andi Xu</b>, Mahdi Qazwini, Chen Liang, Anhong Guo</div>
+            <div>ASSETS&nbsp;2023&nbsp;Demo</div>
+            <div>
+              <a href="assets/papers/ASSETS23-vizlens.pdf" target="_blank">pdf</a>
+              &nbsp;·&nbsp;
+              <a href="https://dl.acm.org/doi/10.1145/3597638.3614493" target="_blank">ACM DL</a>
+              &nbsp;·&nbsp;
+              <a href="https://youtu.be/lKNvF1GcBvM" target="_blank">full video</a>
+              &nbsp;·&nbsp;
+              <a href="https://youtu.be/Dty7LgLOORQ" target="_blank">demo video</a>
+            </div>
+          </div>
+        </div>
         
-        frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div>
-        Project 2: [AR] A2G (part 2)
-    </div>
-    <div class="embed-container">
-        <iframe width="640" height="390" 
-        src="https://www.youtube.com/embed/Rpswpww9k_4" 
+        <div class="row paper-row">
+          <div class="col-md-3 col-xs-4">
+            <img class="paperimage img img-responsive" src="assets/img/CHI23-DIYAT.jpg" alt="AI-based assistive technologies tend to assume 'universal' needs of BVI people and are thus one-size-fits-all, rather than accounting for unique differences and desires. This figure shows an example where a blind user uses Seeing AI to read a letter and trying to find out about the sender name Rebecca. However, it'll read many other unnecessary and distracting details.">
+          </div>
+          <div class="col-md-9 col-xs-8">
+            <div>
+              Hacking, Switching, Combining: Understanding and Supporting DIY Assistive Technology Design by Blind People
+            </div>
+            <div>Jaylin Herskovitz, <b>Andi Xu</b>, Rahaf Alharbi, Anhong Guo</div>
+            <div>CHI&nbsp;2023</div>
+            <div>
+              <a href="papers/CHI23-DIYA11y.pdf" target="_blank">pdf</a>
+              &nbsp;·&nbsp;
+              <a href="https://dl.acm.org/doi/10.1145/3544548.3581249" target="_blank">ACM DL</a>
+              &nbsp;·&nbsp;
+              <a href="https://youtu.be/RsiZw46CV_A" target="_blank">full video</a>
+              &nbsp;·&nbsp;
+              <a href="https://youtu.be/isorOKTHrrg" target="_blank">30s preview</a>
+              &nbsp;·&nbsp;
+              <a href="https://youtu.be/qncBMbrb0rY" target="_blank">talk</a>
+              &nbsp;·&nbsp;
+              <a href="https://github.com/HumanAILab/diy-a11y" target="_blank">dataset</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="d-flex justify-content-center align-items-center section-title subtitle " style="margin-bottom:2rem" id="pro">
+          <div>
+              <b>Project</b>
+          </div>
+        </div>
+      
+
         
-        frameborder="0" allowfullscreen></iframe>
+
+        
+        <div class="row d-flex justify-content-center align-items-start gap-4">
+          <div class="col-sm-6 col-md-4 col-lg-4 mb-4 ">
+            <div class="image-container">
+              <img src="assets/img/vr-keyboard.png" alt="Description of Image">
+              <div class="overlay">
+                  <a href="https://andixu1111.wixsite.com/498studio6" class="link-text"><span class="bi bi-link">Website</span></a>
+                  <a href="https://github.com/hazard-10/TheseusOrbitalStation_VR_TypingGame" class="link-text"><span class="bi bi-link">Code</span></a>
+              </div>
+            </div>
+            <div class="d-flex flex-column  align-items-center " style="margin:15px;">
+              <p>Theseus Orbital Station</p>
+              <p class="text-center" style="margin-top:-5px; font-size:small">A VR typing game to study optimal typing experiences in virtual reality.</p>
+            </div>
+            
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div class="image-container">
+              <img src="assets/img/ring.jpeg" alt="Description of Image">
+              <div class="overlay">
+                  <a href="https://youtu.be/TI3Ujg_ab_Q" class="link-text"><span class="bi bi-link">Video</span></a>
+                  <a href="assets/papers/ring.pdf" class="link-text"><span class="bi bi-link">Report</span></a>
+              </div>
+            </div>
+            <div class="d-flex flex-column  align-items-center " style="margin:15px;">
+              <p>One ring to rule them all</p>
+              <p class="text-center" style="margin-top:-5px;font-size:small">A ring to improve typing and clicking experience in virtual reality.</p>
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-start gap-4">
+
+        <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="image-container">
+            <img src="assets/img/545.png" alt="Description of Image">
+            <div class="overlay">
+                <a href="assets/papers/545.pdf" class="link-text"><span class="bi bi-link">Report</span></a>
+            </div>
+          </div>
+          <div class="d-flex flex-column  align-items-center " style="margin:15px;">
+            <p>DeepFake Video Detection</p>
+            <p class="text-center" style="margin-top:-5px;font-size:small">Machine Learning course final project. Unimodal methods for DeepFake video classification with spectral features.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="image-container">
+            <img src="assets/img/498-10.png" alt="Description of Image">
+            <div class="overlay">
+               <a href="assets/papers/498-10.pdf" class="link-text"><span class="bi bi-link">Report</span></a>
+            </div>
+          </div>
+          <div class="d-flex flex-column  align-items-center " style="margin:15px;">
+            <p>Stock Price Prediction</p>
+            <p class="text-center" style="margin-top:-5px;font-size:small">Affective computing course final project. Twitter (not X at that time) sentiment analysis and time series analysis.</p>
+          </div>
+          
+        </div>
+        
+      </div>
+        
+        </div>
+      </div>
+    </section>
+    
+    
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-sm-6">
+          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div> -->
+        <div class="col-sm-6 social text-md-end">
+          <!-- <a href="#"><span class="bi bi-twitter"></span></a> -->
+          <a href="https://www.linkedin.com/in/andixu1111/"><span class="bi bi-linkedin"></span></a>
+          <a href=""><span class="bi bi-github"></span></a>
+        </div>
+      </div>
     </div>
-    <div>
-        Project 3: VR keyboard project - The Thesus Orbital Station 
-    </div>
-    <div>
-        https://andixu1111.wixsite.com/498studio6
-    </div>
-    <style>
-    .embed-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
-      max-width: 100%;
-    }
-    .embed-container iframe,
-    .embed-container object,
-    .embed-container embed {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 60%;
-      height: 60%;
-    }
-    </style>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <!-- <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script> -->
+
+  <!-- Template Main JS File -->
+  <!-- <script src="assets/js/main.js"></script> -->
+
 </body>
 
 </html>
